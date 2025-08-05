@@ -1,0 +1,11 @@
+[project]
+name = "crewai-agentic-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crewai[tools]>=0.152.0",
+    "duckduckgo-search>=8.1.1",
+    "notebook>=7.4.4",
+]
